@@ -1,0 +1,7 @@
+text = input("Enter Paragraph to find/replace words:-" )
+Oldstr= input("Enter Word to be replaced:-" )
+Newstr=input("Enter New replaced Word:- ")
+L=text.count(Oldstr)
+K=text.replace(Oldstr , Newstr)
+print("Times replaced-->",L)
+print (K)
